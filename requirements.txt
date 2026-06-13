@@ -1,0 +1,55 @@
+# ── Core ML & Data ──────────────────────────────────────────────
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==0.18.1
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+scipy==1.13.1
+
+# ── PDF & PPT Ingestion ─────────────────────────────────────────
+PyMuPDF==1.24.5
+pdfplumber==0.11.1
+python-pptx==0.6.23
+
+# ── NLP & Text Processing ───────────────────────────────────────
+nltk==3.8.1
+spacy==3.7.5
+sentence-transformers==3.0.1
+transformers==4.42.3
+tokenizers==0.19.1
+
+# ── Vision Models ───────────────────────────────────────────────
+Pillow==10.3.0
+opencv-python==4.10.0.84
+open-clip-torch==2.24.0
+
+# ── Audio / Video ───────────────────────────────────────────────
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+
+# ── Graph & GNN ─────────────────────────────────────────────────
+networkx==3.3
+torch-geometric==2.5.3
+
+# ── Vector Database ─────────────────────────────────────────────
+chromadb==0.5.3
+
+# ── LLM Interface ───────────────────────────────────────────────
+ollama==0.2.1
+requests==2.32.3
+
+# ── Evaluation ──────────────────────────────────────────────────
+rouge-score==0.1.2
+nltk==3.8.1
+bert-score==0.3.13
+rank-bm25==0.2.2
+
+# ── UI ──────────────────────────────────────────────────────────
+streamlit==1.36.0
+
+# ── Utilities ───────────────────────────────────────────────────
+tqdm==4.66.4
+python-dotenv==1.0.1
+loguru==0.7.2
+pyyaml==6.0.1
